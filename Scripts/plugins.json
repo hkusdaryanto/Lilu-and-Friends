@@ -1,6 +1,6 @@
 {
-  "Version": "0.0.123",
-  "Changes": "Add WhateverRed repo.",
+  "Version": "0.0.124",
+  "Changes": "Add CryptexFixup repo.",
   "Plugins": [
     {
       "Build Opts": [
@@ -359,6 +359,17 @@
         "release_regex": "(?i)release\\.zip"
       }
     },
+     {
+      "Lilu": true,
+      "URL": "git clone --depth 1 https://github.com/acidanthera/CryptexFixup",
+      "Name": "WhateverGreen",
+      "Desc": "provide Kernel extension for installing Rosetta Cryptex in macOS Ventura",
+      "github": {
+        "URL": "https://github.com/acidanthera/CryptexFixup/releases",
+        "debug_regex": "(?i)debug\\.zip",
+        "release_regex": "(?i)release\\.zip"
+      }
+    },   
     {
       "Lilu": true,
       "URL": "git clone --depth 1 https://github.com/acidanthera/DebugEnhancer",
