@@ -1243,11 +1243,11 @@
     },
         {
       "Lilu": true,
-      "URL": "git clone --depth 1 https://github.com/NootInc/WhateverRed",
-      "Name": "WhateverGreen",
+      "URL": "git clone --depth 1 https://github.com/NootInc/NootedRed",
+      "Name": "NootedRed",
       "Desc": "provides patches for AMD igpu Raven/Raven2-based iGPUs (Like Picasso)",
       "github": {
-        "URL": "https://github.com/NootInc/WhateverRed/releases",
+        "URL": "https://github.com/NootInc/NootedRed/releases",
         "debug_regex": "(?i)debug\\.zip",
         "release_regex": "(?i)release\\.zip"
       }
